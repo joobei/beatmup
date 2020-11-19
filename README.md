@@ -56,9 +56,9 @@ You can then feed the app with an image of your choice and get the upscaled resu
 To build the **X2** app in Windows you may install *Visual Studio* (tested on 2013 Express and 2019 Community free editions) and generate the VS solution as follows:
 
     git clone https://github.com/lnstadrum/beatmup.git
+    cd beatmup
     git submodule init
     git submodule update
-    cd beatmup
     mkdir build
     cd build
     cmake -DUSE_OPENGL=ON ../apps
